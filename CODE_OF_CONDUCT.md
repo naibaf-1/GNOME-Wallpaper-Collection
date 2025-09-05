@@ -58,7 +58,7 @@ The nature and severity of the violation will determine the response, at the dis
 
 ## Attribution
 
-This Code of Conduct is inspired by the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1, and adapted for the GNOME-time-shifted-wallpapers repository by Fabian Roland.
+This Code of Conduct is inspired by the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1, and adapted for this GNOME-Wallpaper-Collection by Fabian Roland.
 
 ---
 Thank you for helping to make the community behind this wallpapers a welcoming and friendly community!
