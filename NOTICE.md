@@ -1,4 +1,4 @@
-GNOME-time-shifted-wallpapers
+GNOME-Wallpaper-Collection
 
 Copyright 2025 Fabian Roland (naibaf-1)
 
@@ -6,7 +6,7 @@ This product includes software developed by Fabian Roland (naibaf-1).
 
 If you fork, redistribute, or modify this repository, please retain this notice and attribute the original author in your documentation or README as follows:
 
-Based on GNOME-time-shifted-wallpapers by Fabian Roland (naibaf-1)
+Based on GNOME-Wallpaper-Collection by Fabian Roland (naibaf-1)
 
 This project is licensed under the Apache License, Version 2.0.  
 You may obtain a copy of the License at
