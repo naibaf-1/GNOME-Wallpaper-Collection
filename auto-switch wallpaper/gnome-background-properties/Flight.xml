@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Flight</name> <!-- This is the name of the wallpaper -->
+    <filename>/usr/share/backgrounds/gnome/Flight-l.jpg</filename> <!-- Enter the path to the image for the light mode -->
+    <filename-dark>/usr/share/backgrounds/gnome/Flight-d.jpg</filename-dark> <!-- Enter the path to the image for the dark mode -->
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#26a269</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>

@@ -1,0 +1,96 @@
+<background>
+  <starttime>
+    <year>2025</year>
+    <month>9</month>
+    <day>2</day>  <!-- <= if times are badly incorrect, change the date to your current day -->
+    <hour>23</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+  
+	<!-- from 11pm to 5:30am -->
+	<static>
+  		<duration>23400.0</duration> <!-- Image will change after a certain duration in seconds. So one hour are 3600s. -->
+ 		<file>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_22:52.jpg</file> <!-- path to file -->
+	</static>
+	
+	<!-- from 5:30am to 6am -->
+	<transition type="overlay"> <!-- overlay means the images will change smoothly -->
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_22:52.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_20:25.jpg</to>
+	</transition>
+	
+	<!-- from 6am to 6:30am -->
+	<transition type="overlay">
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_20:25.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_07:49.jpg</to>
+	</transition>
+	
+	<!-- from 6:30am to 7am -->
+	<transition type="overlay">
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_07:49.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_07:53.jpg</to>
+	</transition>
+	
+	<!-- from 7am to 11am -->
+	<transition type="overlay">
+		<duration>14400.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_7:53.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_11:02.jpg</to>
+	</transition>
+	
+	<!-- from 11am to 1pm -->
+	<transition type="overlay">
+		<duration>7200.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_11:02.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_13:15.jpg</to>
+	</transition>
+	
+	<!-- from 1pm to 6:30pm-->
+	<transition type="overlay">
+		<duration>19800.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_13:15.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_16:00.jpg</to>
+	</transition>
+	
+	<!-- from 6:30pm to 7pm -->
+	<transition type="overlay">
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_16:00.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_19:38.jpg</to>
+	</transition>
+	
+	<!-- from 7pm to 7:30pm -->
+	<transition type="overlay">
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_19:38.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_19:59.jpg</to>
+	</transition>
+	
+	<!-- from 7:30pm to 8:30pm -->
+	<transition type="overlay">
+		<duration>3600.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_19:59.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_20:23.jpg</to>
+	</transition>
+	
+	<!-- from 8:30pm to 9pm -->
+	<transition type="overlay">
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_20:23.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_21:54.jpg</to>
+	</transition>
+
+	
+	<!-- from 9 to 11pm -->
+	<transition type="overlay">
+		<duration>7200.0</duration>
+		<from>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_21:54.jpg</from>
+		<to>/usr/share/backgrounds/gnome/Batam_Panbil_Windham_Bar/windham_bar_22:52.jpg</to>
+	</transition>
+</background>
+	
+  
