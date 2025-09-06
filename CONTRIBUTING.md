@@ -1,9 +1,6 @@
 # Contributing to GymTrim
 
-Thank you for your interest in contributing to this collection of time-shifting wallpapers for the GNOME desktop! Your help is appreciated, whether you are reporting bugs, suggesting features, requesting help, submitting own wallpapers or
-improving documentation.
-
----
+Thank you for your interest in contributing to this collection of time-shifting and auto-switching wallpapers for the GNOME desktop! Your help is appreciated, whether you are reporting bugs, suggesting features, requesting help, submitting own wallpapers or improving documentation.
 
 ## How to Contribute
 
@@ -25,31 +22,35 @@ improving documentation.
 - Enter the information as the templates shows you
 
 ### 4. Submitting own wallpapers
-If you want to cotribute are there multiple ways to do so:
+If you want to contribute your own wallpaper are there multiple ways to do so:
 
-#### You know how it works:
-If you know how to build your own time-shifted wallpaper for GNOME and you want to contribute to this project do the following steps:
+#### You know how it works
+If you know how to build your own wallpaper for GNOME and you want to contribute to this project do the following steps:
 1) Make a Fork of this repository
 2) Build your wallpaper by configuring the .xml files
-3) Store the .xml files and images into the correct folders
-4) If the wallpapers are working correctly, make a Pull Request
-*The moment your wallpaper is part of this project, you will be listed as a "Wallpaper contributor".*
+3) Name all files and folders so they match to the regulations
+4) Store the .xml files and images into the correct folders, which are called like the folders of your OS and subfolders of either "time-shifting wallpaper" or "auto-switching wallpaper".
+5) If the wallpapers are working correctly, make a Pull Request
+   *(The moment your wallpaper is part of this project, you will be listed as a "Wallpaper contributor".)*
 
-#### You don't know how it works:
-If you don't know how to create an time-shifted wallpaper for GNOME follow these steps:
+#### You don't know how it works
+If you don't know how to create an wallpaper for GNOME follow these steps:
 1) Collect the wallpapers into one Folder
-2) Send an E-Mail at Fabian.Roland@pm.me containing following things:
+2)  Name all files and folders so they match to the regulations
+3) Send an E-Mail at Fabian.Roland@pm.me containing following things:
    - The name of your wallpaper
    - The permission I'm allowed to use the images you sent me
    - The folder containing the images
-3) Wait until I add your wallpaper to this project
-4) Check if everything is fine with you. If not contact me via the E-Mail from above again.
-*The moment your wallpaper is part of this project meaning I added it you will be listed as an "Image contributor".*
+   - Wheter you want me to make a time-shifted or auto-switching wallpaper. Both is fine too.
+4) Wait until I add your wallpaper to this project
+5) Check if everything is fine with you. If not please contact me via the E-Mail from above again.
+   *(The moment your wallpaper is part of this project meaning I added it you will be listed as an "Image contributor".)*
 
-#### You want to learn it:
-If you want to learn how to create an time-shifted wallpaper for GNOME yourself, feel free to open an discussion.
+#### You want to learn it
+If you want to learn how to create such an wallpaper for GNOME yourself, feel free to open an discussion, but please clarify in its header wheter its about time-shifting or auto-switching wallpapers.
 
-**Please respect the copyright of the images you use. If you don't own the copyright or if you aren't allowed to publish these images don't add them to this project.**
+**Please respect the copyright of the images you use. If you don't own the copyright or if you aren't allowed to publish these images don't add them to this project. I'm not able to prove that, but using others images without permission might be a crime! So check its license first.**
+
 
 ### 5. Improving Documentation
 - Feel free to submit pull requests to improve the README or other documentation.
@@ -89,7 +90,7 @@ By contributing, you agree that your contributions will be licensed under the Ap
 
 If you fork and redistribute this repository, please include the following attribution in your README or documentation:
 
-> Based on GNOME-time-shifted-wallpapers by Fabian Roland (naibaf-1)
+> Based on GNOME-Wallpaper-Collection by Fabian Roland (naibaf-1)
 
 ---
 
