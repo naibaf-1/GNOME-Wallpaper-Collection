@@ -37,7 +37,7 @@ If you know how to build your own wallpaper for GNOME and you want to contribute
 If you don't know how to create an wallpaper for GNOME follow these steps:
 1) Collect the wallpapers into one Folder
 2)  Name all files and folders so they match to the regulations
-3) Send an E-Mail at Fabian.Roland@pm.me containing following things:
+3) Send an E-Mail at Roland.Fabian@pm.me containing following things:
    - The name of your wallpaper
    - The permission I'm allowed to use the images you sent me
    - The folder containing the images
