@@ -2,7 +2,7 @@
 <!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
 <wallpapers>
   <wallpaper deleted="false">
-    <name>Cross at Oberbuchfeld</name> <!-- This is the name of the wallpaper -->
+    <name>Jesus is alive!</name> <!-- This is the name of the wallpaper -->
     <filename>/usr/share/backgrounds/gnome/Oberbuchfeld-Cross-l.jpg</filename> <!-- Enter the path to the image for the light mode -->
     <filename-dark>/usr/share/backgrounds/gnome/Oberbuchfeld-Cross-d.jpg</filename-dark> <!-- Enter the path to the image for the dark mode -->
     <options>zoom</options>
