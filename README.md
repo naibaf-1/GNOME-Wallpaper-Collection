@@ -28,7 +28,7 @@ Batam Panbil Windham Bar:
 ![Batam Panbil Windham Bar](./assets/Batam_Panbil_Windham_Bar_Preview.gif)
 
 #### Auto-switching wallpapers
-| <img src="./assets/Oberbuchfeld-Cross.png" width="320"/> <br> **Oberbuchfeld Cross** | <img src="./assets/Flight.png" width="320"/> <br> **Flight** | <img src="./assets/Windham_Pool.png" width="320"/> <br> **Windham Pool** |
+| <img src="./assets/Oberbuchfeld-Cross.png" width="320"/> <br> **Cross at Oberbuchfeld** | <img src="./assets/Flight.png" width="320"/> <br> **Flight** | <img src="./assets/Windham_Pool.png" width="320"/> <br> **Windham Pool** |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------------------------------------|
 
 *Currently are there no more available wallpapers. I hope it will be more soon. Feel free too contribute your own!*
