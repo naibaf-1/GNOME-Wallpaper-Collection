@@ -28,8 +28,10 @@ Batam Panbil Windham Bar:
 ![Batam Panbil Windham Bar](./assets/Batam_Panbil_Windham_Bar_Preview.gif)
 
 #### Auto-switching wallpapers
-| <img src="./assets/Oberbuchfeld-Cross.png" width="320"/> <br> **Cross at Oberbuchfeld** | <img src="./assets/Flight.png" width="320"/> <br> **Flight** | <img src="./assets/Windham_Pool.png" width="320"/> <br> **Windham Pool** |
-|--------------------------------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------------------------------------|
+| <img src="./assets/Oberbuchfeld-Cross.png" width="320"/> <br> **Jesus is alive!** | <img src="./assets/Flight.png" width="320"/> <br> **Flight** | <img src="./assets/Windham_Pool.png" width="320"/> <br> **Windham Pool** |
+|-----------------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------|
+| *(No image yet)* <br> **MacTahoe Background** |
+|-----------------------------------------------|
 
 *Currently are there no more available wallpapers. I hope it will be more soon. Feel free too contribute your own!*
 
@@ -48,8 +50,8 @@ If you know how to build your own wallpaper for GNOME and you want to contribute
 #### You don't know how it works
 If you don't know how to create an wallpaper for GNOME follow these steps:
 1) Collect the wallpapers into one Folder
-2)  Name all files and folders so they match to the regulations
-3) Send an E-Mail at Fabian.Roland@pm.me containing following things:
+2) Name all files and folders so they match to the regulations
+3) Send an E-Mail at Roland.Fabian@pm.me containing following things:
    - The name of your wallpaper
    - The permission I'm allowed to use the images you sent me
    - The folder containing the images
@@ -142,17 +144,19 @@ Those projects doesn't collect and share any kind of data.
 ### For the auto-switching wallpapers
 
 ###### Wallpaper Contributor
-  - **Fabian Roland** contributed:
+  - **naibaf-1** contributed:
+      - "Jesus is alive!"
       - "Flight"
-      - "Cross at Oberbuchfeld"
       - "Windham Pool"
+  - **vinceluice** contributed:
+      - "MacTahoe Background"
 
 ###### Image Contributors
 *(There are currently no Image contributors)*
 
 ## Disclaimer
-I created this project, because I like those time-shifted wallpapers. I know this feature from MacOS and I want to bring it to GNOME too. But that's not all: I think it's important to
+I created this project, because I like time-shifted wallpapers. I know this feature from MacOS and I want to bring it to GNOME too. But that's not all: I think it's important to
 spend more time enjoying the beauty of our earth and not just the computer games and so on. I think a lot of people are spending a lot of time at there PC.
 I hope I got your interest and I want to appeal to you: **Go out and enjoy the beauty of the earth around your stay!**
 
-If you want share these experience either by contributing your own time-shifted wallpaper or by adding a wallpaper to my other repository. But please take care of the **Copyright** of the images.
+If you want, share these experience either by contributing your own wallpaper to this repository. But please take care of the **Copyright** of the images.
