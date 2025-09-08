@@ -29,9 +29,9 @@ Batam Panbil Windham Bar:
 
 #### Auto-switching wallpapers
 | <img src="./assets/Oberbuchfeld-Cross.png" width="320"/> <br> **Jesus is alive!** | <img src="./assets/Flight.png" width="320"/> <br> **Flight** | <img src="./assets/Windham_Pool.png" width="320"/> <br> **Windham Pool** |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------|
-| *(No image yet)* <br> **MacTahoe Background** |
-|-----------------------------------------------|
+|-----------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------|
+| <img src="./assets/MacTahoe.png" width="320"/> <br> **MacTahoe Background** |
+
 
 *Currently are there no more available wallpapers. I hope it will be more soon. Feel free too contribute your own!*
 
