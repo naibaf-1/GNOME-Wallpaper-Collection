@@ -51,6 +51,26 @@ If you want to learn how to create such an wallpaper for GNOME yourself, feel fr
 
 **Please respect the copyright of the images you use. If you don't own the copyright or if you aren't allowed to publish these images don't add them to this project. I'm not able to prove that, but using others images without permission might be a crime! So check its license first.**
 
+#### Regulations
+If you want to contribute please satisfy the following regulations depending on its type of wallpaper:
+
+##### It's an time-shifting wallpaper
+1) Make sure you have the **copyright** of the images or are allowed to publish them
+2) Please store the image files with the .xml file, which manages their order, into an folder an store that folder into "/time-shifting wallpaper/backgrounds/". Please respect those regulations:
+   - Call the folder like this: *Name_Of_Your_Wallpaper*
+   - Call the image files like this: *Name-of-the-wallpaper_timeItWasTaken* or *nameOfTheWallpaper_timeItWillBeDisplayed*            
+3) Please store the other .xml into "/time-shifting wallpaper/gnome-background-properties/" and call it like that:
+            *NameOfTheWallpaper.xml*
+
+##### It's an auto-switching wallpaper
+1) Make sure you have the **copyright** of the images or are allowed to publish them
+2) Please store the images into a folder into "/auto-switch wallpaper/backgrounds/". Please respect those regulations:
+   - Call the folder like this: *NameOfTheWallpaper*
+   - Call the image files like this:
+       - light mode images: *NameOfTheWallpaper-l*
+       - dark mode images: *NameOfTheWallpaper-d*
+3) Please store the .xml file into "/auto-switch wallpaper/gnome-background-properties/" and name it like this:
+     *NameOfTheWallpaper.xml*
 
 ### 5. Improving Documentation
 - Feel free to submit pull requests to improve the README or other documentation.
