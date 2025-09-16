@@ -1,5 +1,5 @@
 # GNOME-Wallpaper-Collection
-This is an collection of self-made time-shifting and auto-switching wallpapers for the GNOME desktop.
+This is a collection of self-made time-shifting and auto-switching wallpapers for the GNOME desktop.
 
 ## Overview
 - [Available Wallpapers](#Available-Wallpapers)
@@ -36,16 +36,17 @@ Batam Panbil Windham Bar:
 *Currently are there no more available wallpapers. I hope it will be more soon. Feel free too contribute your own!*
 
 ## How to Contribute
-If you want to contribute are there multiple ways to do so:
+If you want to contribute are there multiple ways to do that:
 
 #### You know how it works
 If you know how to build your own wallpaper for GNOME and you want to contribute to this project do the following steps:
-1) Make a Fork of this repository
+1) Fork this repository
 2) Build your wallpaper by configuring the .xml files
 3) Name all files and folders so they match to the regulations
 4) Store the .xml files and images into the correct folders, which are called like the folders of your OS and subfolders of either "time-shifting wallpaper" or "auto-switching wallpaper".
 5) If the wallpapers are working correctly, make a Pull Request
-   *(The moment your wallpaper is part of this project, you will be listed as a "Wallpaper contributor".)*
+
+*(The moment your wallpaper is part of this project, you will be listed as a "Wallpaper contributor".)*
 
 #### You don't know how it works
 If you don't know how to create an wallpaper for GNOME follow these steps:
@@ -58,10 +59,11 @@ If you don't know how to create an wallpaper for GNOME follow these steps:
    - Wheter you want me to make a time-shifted or auto-switching wallpaper. Both is fine too.
 4) Wait until I add your wallpaper to this project
 5) Check if everything is fine with you. If not please contact me via the E-Mail from above again.
-   *(The moment your wallpaper is part of this project meaning I added it you will be listed as an "Image contributor".)*
+
+*(The moment your wallpaper was added to this project you will be listed as a "Image contributor".)*
 
 #### You want to learn it
-If you want to learn how to create such an wallpaper for GNOME yourself, feel free to open an discussion, but please clarify in its header wheter its about time-shifting or auto-switching wallpapers.
+If you want to learn how you can create such an GNOME wallpaper, feel free to open an discussion. But please clarify in its header wheter its about time-shifting or auto-switching wallpapers.
 
 **Please respect the copyright of the images you use. If you don't own the copyright or if you aren't allowed to publish these images don't add them to this project. I'm not able to prove that, but using others images without permission might be a crime! So check its license first.**
 
@@ -71,25 +73,26 @@ If you want to contribute please satisfy the following regulations depending on 
 #### It's an time-shifting wallpaper
 1) Make sure you have the **copyright** of the images or are allowed to publish them
 2) Please store the image files with the .xml file, which manages their order, into an folder an store that folder into "/time-shifting wallpaper/backgrounds/". Please respect those regulations:
-   - Call the folder like this: *Country_Region_..._Locality_Place*
-   - Call the image files like this: *place_time-it-was-taken* or *place-time-it-will-be-displayed*            
+   - Call the folder like this: *Name_Of_Your_Wallpaper*
+   - Call the image files like this: *Name-of-the-wallpaper_timeItWasTaken* or *nameOfTheWallpaper_timeItWillBeDisplayed*            
 3) Please store the other .xml into "/time-shifting wallpaper/gnome-background-properties/" and call it like that:
-            *CountryRegionPlace.xml*
+            *NameOfTheWallpaper.xml*
 
 #### It's an auto-switching wallpaper
 1) Make sure you have the **copyright** of the images or are allowed to publish them
 2) Please store the images into a folder into "/auto-switch wallpaper/backgrounds/". Please respect those regulations:
-   - Call the folder like this: *Country_Region_..._Locality_Place*
+   - Call the folder like this: *NameOfTheWallpaper*
    - Call the image files like this:
-       - light mode images: *Locality_Place-l*
-       - dark mode images: *Locality_Place-d*
+       - light mode images: *NameOfTheWallpaper-l*
+       - dark mode images: *NameOfTheWallpaper-d*
 3) Please store the .xml file into "/auto-switch wallpaper/gnome-background-properties/" and name it like this:
-     *CountryRegion...Locality_Place.xml*
+     *NameOfTheWallpaper.xml*
 
 #### Supported image file format
 Currently are there two image file formats that will work for sure:
 - .jpg
 - .png
+
 *(This are the image file formats I already tested. I think others will work too.)*
 
 ## Installation:
@@ -108,11 +111,12 @@ If you wan't to install a time-shifting wallpaper follow these steps:
 
       sudo mv /Path/to/xml /usr/share/gnome-background-properties
 - Now should you be able to select the wallpaper from your settings.
+
 *(If you need help create a new issue and select "Help needed")*
 
 #### How to install an auto-switching wallpaper
 If you want to install an auto-switching wallpaper follow these steps:
-- Download the two image files of the wallpaper you want from */auto-switch wallpaper/backgrounds/FolderOfYourWallpaper/*
+- Download the two image files of the wallpaper you want from */auto-switch wallpaper/backgrounds/*
 - Download the .xml file of your wallpaper from */auto-switch wallpaper/gnome-background-properties/*
 - Move the two image files to "usr/share/backgrounds/gnome/":
 
@@ -125,6 +129,7 @@ If you want to install an auto-switching wallpaper follow these steps:
 
       sudo mv /Path/to/xml /usr/share/gnome-background-properties
 - Now should you be able to select the wallpaper from your settings.
+
 *(If you need help create a new issue and select "Help needed")*
 
 ## Legal & Privacy
@@ -139,6 +144,7 @@ Those projects doesn't collect and share any kind of data.
       - "Batam Panbil Windham Bar"
 
 ###### Image Contributors
+
 *(There are currently no Image contributors)*
 
 ### For the auto-switching wallpapers
@@ -152,6 +158,7 @@ Those projects doesn't collect and share any kind of data.
       - "MacTahoe Background"
 
 ###### Image Contributors
+
 *(There are currently no Image contributors)*
 
 ## Disclaimer
