@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Jesus is alive!</name> <!-- This is the name of the wallpaper -->
-    <filename>/usr/share/backgrounds/gnome/Oberbuchfeld-Cross-l.jpg</filename> <!-- Enter the path to the image for the light mode -->
-    <filename-dark>/usr/share/backgrounds/gnome/Oberbuchfeld-Cross-d.jpg</filename-dark> <!-- Enter the path to the image for the dark mode -->
+    <filename>/usr/share/backgrounds/gnome/jesusIsAlive-l.jpg</filename> <!-- Enter the path to the image for the light mode -->
+    <filename-dark>/usr/share/backgrounds/gnome/jesusIsAlive-d.jpg</filename-dark> <!-- Enter the path to the image for the dark mode -->
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#26a269</pcolor>
