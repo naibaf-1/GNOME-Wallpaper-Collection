@@ -24,13 +24,13 @@ This is a collection of self-made time-shifting and auto-switching wallpapers fo
 
 ## Available Wallpapers
 #### Time-shifting wallpapers
-Batam Panbil Windham Bar:
-![Batam Panbil Windham Bar](./assets/Batam_Panbil_Windham_Bar_Preview.gif)
+**landscape_lake**:
+![landscape_lake_preview](./assets/time-shifting wallpaper/landscape_lake_preview.gif)
 
 #### Auto-switching wallpapers
-| <img src="./assets/Oberbuchfeld-Cross.png" width="320"/> <br> **Jesus is alive!** | <img src="./assets/Flight.png" width="320"/> <br> **Flight** | <img src="./assets/Windham_Pool.png" width="320"/> <br> **Windham Pool** |
+| <img src="./assets/auto-switch wallpaper/landscape_cross_preview.png" width="320"/> <br> **landscape_cross** | <img src="./assets/auto-switch wallpaper/flight_wing_preview.png" width="320"/> <br> **flight_wing** | <img src="./assets/auto-switch wallpaper/landscape_pool_preview.png" width="320"/> <br> **landscape_pool** |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------|
-| <img src="./assets/MacTahoe.png" width="320"/> <br> **MacTahoe Background** |
+| <img src="./assets/auto-switch wallpaper/abstract_mac_tahoe_preview.png" width="320"/> <br> **abstract_mac_tahoe** |
 
 
 *Currently are there no more available wallpapers. I hope it will be more soon. Feel free too contribute your own!*
@@ -40,10 +40,10 @@ If you want to contribute are there multiple ways to do that:
 
 #### You know how it works
 If you know how to build your own wallpaper for GNOME and you want to contribute to this project do the following steps:
-1) Fork this repository
+1) Fork and clone this repository
 2) Build your wallpaper by configuring the .xml files
 3) Name all files and folders so they match to the regulations
-4) Store the .xml files and images into the correct folders, which are called like the folders of your OS and subfolders of either "time-shifting wallpaper" or "auto-switching wallpaper".
+4) Store the .xml files and images into the correct folders, which are either called "time-shifting wallpaper" or "auto-switching wallpaper".
 5) If the wallpapers are working correctly, make a Pull Request
 
 *(The moment your wallpaper is part of this project, you will be listed as a "Wallpaper contributor".)*
@@ -63,7 +63,7 @@ If you don't know how to create an wallpaper for GNOME follow these steps:
 *(The moment your wallpaper was added to this project you will be listed as a "Image contributor".)*
 
 #### You want to learn it
-If you want to learn how you can create such an GNOME wallpaper, feel free to open an discussion. But please clarify in its header wheter its about time-shifting or auto-switching wallpapers.
+If you want to learn how you can create such an GNOME wallpaper, feel free to open a discussion. But please clarify in its header whether it's about time-shifting or auto-switching wallpapers.
 
 **Please respect the copyright of the images you use. If you don't own the copyright or if you aren't allowed to publish these images don't add them to this project. I'm not able to prove that, but using others images without permission might be a crime! So check its license first.**
 
@@ -73,25 +73,23 @@ If you want to contribute please satisfy the following regulations depending on 
 #### It's an time-shifting wallpaper
 1) Make sure you have the **copyright** of the images or are allowed to publish them
 2) Please store the image files with the .xml file, which manages their order, into an folder an store that folder into "/time-shifting wallpaper/backgrounds/". Please respect those regulations:
-   - Call the folder like this: *Name_Of_Your_Wallpaper*
-   - Call the image files like this: *name_of_the_wallpaper_timeItWasTaken* or *name_of_the_wallpaper_timeItWillBeDisplayed*
-   - Call the .xml file like this: *name_of_the_wallpaper.xml*
-3) Please store the other .xml into "/time-shifting wallpaper/gnome-background-properties/" and call it like that:
-            *NameOfTheWallpaper.xml*
+   - Call the folder like this: `<category>_<object>`
+   - Call the image files like this: `<category>_<object>_<time_it's_displayed>`
+   - Call the .xml file like this: `<category>_<object_configuration>.xml`
+3) Please store the other .xml into "/time-shifting wallpaper/gnome-background-properties/" and call it like that: `<category>_<object>_registration.xml`
 
 #### It's an auto-switching wallpaper
 1) Make sure you have the **copyright** of the images or are allowed to publish them
 2) Please store the images into a folder into "/auto-switch wallpaper/backgrounds/". Please respect those regulations:
-   - Call the folder like this: *NameOfTheWallpaper*
+   - Call the folder like this: `<category>_<object>`
    - Call the image files like this:
-       - light mode images: *nameOfTheWallpaper-l*
-       - dark mode images: *nameOfTheWallpaper-d*
-3) Please store the .xml file into "/auto-switch wallpaper/gnome-background-properties/" and name it like this:
-     *NameOfTheWallpaper.xml*
+       - light mode images: `<category>_<object>-l`
+       - dark mode images: `<category>_<object>-d`
+3) Please store the .xml file into "/auto-switch wallpaper/gnome-background-properties/" and name it like this: `<category>_<object>_registration.xml`
 
 #### Supported image file format
 Currently are there two image file formats that will work for sure:
-- .jpg
+- .jpg/.jepg
 - .png
 
 *(This are the image file formats I already tested. I think others will work too.)*
@@ -119,14 +117,14 @@ If you wan't to install a time-shifting wallpaper follow these steps:
 If you want to install an auto-switching wallpaper follow these steps:
 - Download the two image files of the wallpaper you want from */auto-switch wallpaper/backgrounds/*
 - Download the .xml file of your wallpaper from */auto-switch wallpaper/gnome-background-properties/*
-- Move the two image files to "usr/share/backgrounds/gnome/":
+- Move the folder containing the two image files to "usr/share/backgrounds/gnome/":
 
-      sudo mv /Path/to/image-l /usr/share/backgrounds/gnome/ && sudo mv /Path/to/image-d /usr/share/backgrounds/gnome
+      sudo mv /Path/to/folder /usr/share/backgrounds/gnome/
   If prompted enter your root passwort. You might need to create the folder "gnome" as its not always there:
 
       sudo mkdir /usr/share/backgrounds/gnome
   Then try moving the images again.
-- Finaly you need to move the .xml file, which you downloaded, to "/usr/share/gnome-background-properties":
+- Finally you need to move the .xml file, which you downloaded, to "/usr/share/gnome-background-properties":
 
       sudo mv /Path/to/xml /usr/share/gnome-background-properties
 - Now should you be able to select the wallpaper from your settings.
@@ -142,7 +140,7 @@ Those projects doesn't collect and share any kind of data.
 
 ###### Wallpaper Contributors
   - **Fabian Roland** contributed:
-      - "Batam Panbil Windham Bar"
+      - "landscape_lake"
 
 ###### Image Contributors
 
@@ -152,11 +150,11 @@ Those projects doesn't collect and share any kind of data.
 
 ###### Wallpaper Contributor
   - **naibaf-1** contributed:
-      - "Jesus is alive!"
-      - "Flight"
-      - "Windham Pool"
+      - "landscape_cross"
+      - "flight_wing"
+      - "landscape_pool"
   - **vinceluice** contributed:
-      - "MacTahoe Background"
+      - "abstract_mac_tahoe"
 
 ###### Image Contributors
 

@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>MacTahoe Background</name>
-    <filename>/usr/share/backgrounds/gnome/MacTahoe/MacTahoe-day.jpeg</filename>
-    <filename-dark>/usr/share/backgrounds/gnome/MacTahoe/MacTahoe-night.jpeg</filename-dark>
+    <filename>/usr/share/backgrounds/gnome/abstract_mac_tahoe/abstract_mac_tahoe-l.jpeg</filename>
+    <filename-dark>/usr/share/backgrounds/gnome/abstract_mac_tahoe/abstract_mac_tahoe-d.jpeg</filename-dark>
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#51a2da</pcolor>

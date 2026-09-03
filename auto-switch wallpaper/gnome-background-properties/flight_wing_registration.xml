@@ -3,8 +3,8 @@
 <wallpapers>
   <wallpaper deleted="false">
     <name>Flight</name> <!-- This is the name of the wallpaper -->
-    <filename>/usr/share/backgrounds/gnome/Flight-l.jpg</filename> <!-- Enter the path to the image for the light mode -->
-    <filename-dark>/usr/share/backgrounds/gnome/Flight-d.jpg</filename-dark> <!-- Enter the path to the image for the dark mode -->
+    <filename>/usr/share/backgrounds/gnome/flight_wing/flight_wing-l.jpg</filename> <!-- Enter the path to the image for the light mode -->
+    <filename-dark>/usr/share/backgrounds/gnome/flight_wing/flight_wing-d.jpg</filename-dark> <!-- Enter the path to the image for the dark mode -->
     <options>zoom</options>
     <shade_type>solid</shade_type>
     <pcolor>#26a269</pcolor>

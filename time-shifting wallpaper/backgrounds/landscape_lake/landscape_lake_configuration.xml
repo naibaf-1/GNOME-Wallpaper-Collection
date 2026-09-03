@@ -1,0 +1,95 @@
+<background>
+  <starttime>
+    <year>2025</year>
+    <month>9</month>
+    <day>2</day>  <!-- <= if times are badly incorrect, change the date to your current day -->
+    <hour>23</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+  
+	<!-- from 11pm to 5:30am -->
+	<static>
+  		<duration>23400.0</duration> <!-- Image will change after a certain duration in seconds. So one hour are 3600s. -->
+ 		<file>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_23:00.jpg</file> <!-- path to file -->
+	</static>
+	
+	<!-- from 5:30am to 6am -->
+	<transition type="overlay"> <!-- overlay means the images will change smoothly -->
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_23:00.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_06:00.jpg</to>
+	</transition>
+	
+	<!-- from 6am to 6:30am -->
+	<transition type="overlay">
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_06:00.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_06:30.jpg</to>
+	</transition>
+	
+	<!-- from 6:30am to 7am -->
+	<transition type="overlay">
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_06:30.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_07:00.jpg</to>
+	</transition>
+	
+	<!-- from 7am to 11am -->
+	<transition type="overlay">
+		<duration>14400.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_07:00.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_11:00.jpg</to>
+	</transition>
+	
+	<!-- from 11am to 1pm -->
+	<transition type="overlay">
+		<duration>7200.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_11:00.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_13:00.jpg</to>
+	</transition>
+	
+	<!-- from 1pm to 6:30pm-->
+	<transition type="overlay">
+		<duration>19800.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_13:00.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_18:30.jpg</to>
+	</transition>
+	
+	<!-- from 6:30pm to 7pm -->
+	<transition type="overlay">
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_18:30.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_19:00.jpg</to>
+	</transition>
+	
+	<!-- from 7pm to 7:30pm -->
+	<transition type="overlay">
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_19:00.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_19:30.jpg</to>
+	</transition>
+	
+	<!-- from 7:30pm to 8:30pm -->
+	<transition type="overlay">
+		<duration>3600.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_19:30.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_20:30.jpg</to>
+	</transition>
+	
+	<!-- from 8:30pm to 9pm -->
+	<transition type="overlay">
+		<duration>1800.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_20:30.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_21:00.jpg</to>
+	</transition>
+
+	
+	<!-- from 9 to 11pm -->
+	<transition type="overlay">
+		<duration>7200.0</duration>
+		<from>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_21:00.jpg</from>
+		<to>/usr/share/backgrounds/gnome/landscape_lake/landscape_lake_23:00.jpg</to>
+	</transition>
+</background>
+  
