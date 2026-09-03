@@ -25,12 +25,12 @@ This is a collection of self-made time-shifting and auto-switching wallpapers fo
 ## Available Wallpapers
 #### Time-shifting wallpapers
 **landscape_lake**:
-![landscape_lake_preview](./assets/time-shifting wallpaper/landscape_lake_preview.gif)
+![landscape_lake_preview](./assets/time-shifting-wallpaper/landscape_lake_preview.gif)
 
 #### Auto-switching wallpapers
-| <img src="./assets/auto-switch wallpaper/landscape_cross_preview.png" width="320"/> <br> **landscape_cross** | <img src="./assets/auto-switch wallpaper/flight_wing_preview.png" width="320"/> <br> **flight_wing** | <img src="./assets/auto-switch wallpaper/landscape_pool_preview.png" width="320"/> <br> **landscape_pool** |
+| <img src="./assets/auto-switch-wallpaper/landscape_cross_preview.png" width="320"/> <br> **landscape_cross** | <img src="./assets/auto-switch-wallpaper/flight_wing_preview.png" width="320"/> <br> **flight_wing** | <img src="./assets/auto-switch-wallpaper/landscape_pool_preview.png" width="320"/> <br> **landscape_pool** |
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------------------|
-| <img src="./assets/auto-switch wallpaper/abstract_mac_tahoe_preview.png" width="320"/> <br> **abstract_mac_tahoe** |
+| <img src="./assets/auto-switch-wallpaper/abstract_mac_tahoe_preview.png" width="320"/> <br> **abstract_mac_tahoe** |
 
 
 *Currently are there no more available wallpapers. I hope it will be more soon. Feel free too contribute your own!*
