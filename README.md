@@ -5,13 +5,14 @@ This is a collection of self-made time-shifting and auto-switching wallpapers fo
 - [Available Wallpapers](#Available-Wallpapers)
     - *[Time-shifting wallpapers](#Time-shifting-wallpapers)*
     - *[Auto-switching wallpapers](#Auto-switching-wallpapers)*
-- [How to Contribute](#How-to-Contribute)
-    - *[You know how it works](#You-know-how-it-works)*
-    - *[You don't know how it works](#You-don't-know-how-it-works)*
-    - *[You want to learn it](#You-want-to-learn-it)*
-- [Contribution-Guidlines](#Contribution-Guidelines)
-    - *[It's an time-shifting wallpaper](#It's-an-time-shifting-wallpaper)*
-    - *[It's an auto-switching wallpaper](#It's-an-auto-switching-wallpaper)*
+- [Contribution](#Contribution)
+    - *[Wallpaper Setup](#Wallpaper-Setup)*
+        - *[You know how it works](#You-know-how-it-works)*
+        - *[You don't know how it works](#You-don't-know-how-it-works)*
+        - *[You want to learn it](#You-want-to-learn-it)*
+    - *[Contribution-Guidlines](#Contribution-Guidelines)*
+        - *[It's an time-shifting wallpaper](#It's-an-time-shifting-wallpaper)*
+        - *[It's an auto-switching wallpaper](#It's-an-auto-switching-wallpaper)*
     - *[Supported image file format](#Supported-image-file-format)*
 - [Installation](#Installation)
     - *[How to install a time-shifting wallpaper](#How-to-install-a-timeshifting-wallpaper)*
@@ -35,10 +36,11 @@ This is a collection of self-made time-shifting and auto-switching wallpapers fo
 
 *Currently are there no more available wallpapers. I hope it will be more soon. Feel free too contribute your own!*
 
-## How to Contribute
+## Contribution
+#### Wallpaper Setup
 If you want to contribute are there multiple ways to do that:
 
-#### You know how it works
+###### You know how it works
 If you know how to build your own wallpaper for GNOME and you want to contribute to this project do the following steps:
 1) Fork and clone this repository
 2) Build your wallpaper by configuring the .xml files
@@ -48,7 +50,7 @@ If you know how to build your own wallpaper for GNOME and you want to contribute
 
 *(The moment your wallpaper is part of this project, you will be listed as a "Wallpaper contributor".)*
 
-#### You don't know how it works
+###### You don't know how it works
 If you don't know how to create an wallpaper for GNOME follow these steps:
 1) Collect the wallpapers into one Folder
 2) Name all files and folders so they match to the regulations
@@ -62,15 +64,15 @@ If you don't know how to create an wallpaper for GNOME follow these steps:
 
 *(The moment your wallpaper was added to this project you will be listed as a "Image contributor".)*
 
-#### You want to learn it
+###### You want to learn it
 If you want to learn how you can create such an GNOME wallpaper, feel free to open a discussion. But please clarify in its header whether it's about time-shifting or auto-switching wallpapers.
 
 **Please respect the copyright of the images you use. If you don't own the copyright or if you aren't allowed to publish these images don't add them to this project. I'm not able to prove that, but using others images without permission might be a crime! So check its license first.**
 
-## Contribution Guidlines
+#### Contribution Guidlines
 If you want to contribute please satisfy the following regulations depending on its type of wallpaper:
 
-#### It's an time-shifting wallpaper
+###### It's an time-shifting wallpaper
 1) Make sure you have the **copyright** of the images or are allowed to publish them
 2) Please store the image files with the .xml file, which manages their order, into an folder an store that folder into "/time-shifting wallpaper/backgrounds/". Please respect those regulations:
    - Call the folder like this: `<category>_<object>`
@@ -78,7 +80,7 @@ If you want to contribute please satisfy the following regulations depending on 
    - Call the .xml file like this: `<category>_<object_configuration>.xml`
 3) Please store the other .xml into "/time-shifting wallpaper/gnome-background-properties/" and call it like that: `<category>_<object>_registration.xml`
 
-#### It's an auto-switching wallpaper
+###### It's an auto-switching wallpaper
 1) Make sure you have the **copyright** of the images or are allowed to publish them
 2) Please store the images into a folder into "/auto-switch wallpaper/backgrounds/". Please respect those regulations:
    - Call the folder like this: `<category>_<object>`
